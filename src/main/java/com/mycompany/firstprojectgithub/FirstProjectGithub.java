@@ -9,8 +9,17 @@ package com.mycompany.firstprojectgithub;
  * @author RC_Student_lab
  */
 public class FirstProjectGithub {
+    
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+void display(){
+        System.out.println("Name :" + name);
+        System.out.println("Last Name :" + LastName);
+        System.out.println("Age :" + age);
+        System.out.println("gender :" + gender);
+      
 }
+    public static void main(String[] args) {
+        display();
+    }
+    }
+
